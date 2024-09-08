@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: cornsilk;
+    padding: 20px;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: auto;
+    background-color: burlywood;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    color: chocolate;
+}
+
+h1, h2 {
+    margin-bottom: 15px;
+}
+
+legend {
+    display: block;
+    margin-top: 20px;
+    color: brown;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: calc(100% - 1px);
+    padding: 10px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    background-color: aquamarine;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: large;
+    font-style: oblique;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+#resume-container {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.resume {
+    font-size: 16px;
+}
+
+.resume h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.resume p {
+    margin-bottom: 10px;
+}
+
+.resume h2 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.resume ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+[contenteditable="true"]:hover {
+    background-color: #f0f8ff; /* Light background color when editing */
+}
